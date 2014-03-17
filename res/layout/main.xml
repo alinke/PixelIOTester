@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/appTitle_label"
+	    android:textSize="24sp"
+	    android:textColor="#008B8B"
+	/>
+	
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/instructions"
+	    android:textSize="14sp"
+	/>
+	
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="5px"
+	    android:text="@string/alcohol_label" />
+
+	<TextView
+	    android:id="@+id/AlcoholTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="alcohol 0.00"
+	    android:textColor="#ff0000"
+	    android:textSize="30sp" />
+	
+   <TextView
+	    android:id="@+id/buttonText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="2 button text"
+	    android:textColor="#ff0000" />
+
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/proximity_label" />
+
+	<TextView
+	    android:id="@+id/ProxTextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="prox 0.00"
+	    android:textColor="#ff0000"
+	    android:textSize="30sp" />
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingRight="5px"
+	    android:text="@string/analog_label" />
+
+	<TextView
+	    android:id="@+id/TextView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="analog 0.00"
+	    android:textColor="#ff0000"
+	    android:textSize="30sp" />
+	
+	<ToggleButton
+		android:id="@+id/ToggleButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="20px"
+		android:textOff="Board LED is OFF"
+		android:textOn="Board LED is ON"
+		/>
+	
+	
+
+</LinearLayout>

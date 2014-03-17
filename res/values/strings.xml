@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIXEL I/O Tester</string>
+    <string name="appTitle_label">PIXEL I/O Test App</string>
+    <string name="analog_label">4. Analog I/O 3V Port Value:</string>
+    <string name="digital_label">2. Digital I/O 3V Port Value:</string>
+    <string name="alcohol_label">1. Alcohol Sensor Port Value:</string>
+    <string name="proximity_label">3. Proximity Sensor Port Value:</string>
+    <string name="instructions">Instructions: Plug the following sensors into the back of PIXEL: \n\n1. Grove Alcohol Sensor into the Alcohol Port \n2. Grove Button into the Digital I/O Port \n3. Grove IR Proximity Sensor into the Proximity Sensor Port\n4. Grove Potentiometer into the Analog I/O 3V port\n\n</string>
+</resources>
